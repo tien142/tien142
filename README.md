@@ -21,6 +21,7 @@ void nhap(char s[]){
     fgets(s, max, stdin);
     s[strlen(s)-1] = 0;
 } 
+
 // Bai 1: đếm khoảng trắng trong chuổi 
 int dem_space(char s[]) {
     int dem = 0;
@@ -108,6 +109,7 @@ void tach_ho(char s[], char ho[]) {
     else  
         strcpy(ho, s);
 }
+
 int main(){
 	char s[max],ten[max],ho[max]; 
 	int choice; 
